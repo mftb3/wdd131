@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Font Import */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    background-color: #335c67;
+    padding: 1em;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5em;
+    transition: background-color 0.3s;
+  }
+  
+  header nav a:hover {
+    background-color: #1C0B19;
+  }
+  
+  /* Main Layout */
+  main {
+    max-width: 800px;
+    margin: 2em auto;
+    display: grid;
+    gap: 1.5em;
+  }
+  
+  .card {
+    border: 1px solid #1C0B19;
+    padding: 1em;
+    background-color: #1C0B19;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #335c67;
+    margin-top: 2em;
+  }
+  
+  .card img {
+    width: 200px; /* Change this value based on your needs */
+    height: auto;
+  }
+  

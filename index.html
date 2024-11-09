@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Your Full Name">
+  <meta name="author" content="Taylor Cazier">
+  <title>WDD 131 - Dynamic Web Fundamentals - Your Name</title>
+  <link href="styles/base.css" rel="stylesheet">
+  <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-
-    <h1>WDD 131- Cazier</h1>
+  <header>
+    <h1>Welcome to WDD 131 - Dynamic Web Fundamentals</h1>
+    <nav>
+      <a href="https://www.linkedin.com/in/taylor-cazier-6bb2a7307/" target="_blank">LinkedIn</a>
+      <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng#title_number1" target="_blank">Ether 12:27</a>
+      <a href="#" target="_blank">Final Project</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="card">
+      <h2>About Me</h2>
+      <img src="images/image1.jpg" alt="Image for topic 1">
+      <p>Hi, my name is Taylor, and my wife and I recently moved to Dallas Texas, where we just had 
+        our second child.  I'm currently finishing up my second internship as a Server Administrator at a datacenter 
+    here in Dallas, and I'm graduating at the end of this semester with my Bachelor's in Computer IT.  We love the outdoors, camping, going on family walks, 
+fishing, and spending time together.  I can't wait for the end of the semester! </p>
+    </section>
     
+    <section class="card">
+      <h2>All Across the States</h2>
+      <img src="images/image2.png" alt="Image for topic 2">
+      <p>Throughout my life I've moved around quite a bit.  Check out some of the places I've lived!:</p>
+      <ul>
+        <li><a href="https://earth.google.com/web/search/Provo,+UT/@40.25733488,-111.63890857,1458.32723234a,28386.74764258d,35y,0h,0t,0r/data=CngaShJECiUweDg3NGQ5MjcxOTMwYmYxYmY6MHgxZDkwZjEyNjAwYjU1NmVmGamv-JfuHURAIRY0iGol6lvAKglQcm92bywgVVQYAiABIiYKJAmCIjPzyH9AQBEIC3npP1JAQBkgRQF-1x9YwCFjgpEFzD1YwEICCAE6AwoBMEICCABKDQj___________8BEAA" target="_blank">Provo, Utah (1-4 years old)</a></li>
+        <li><a href="https://earth.google.com/web/search/Iowa+City,+IA/@41.64648873,-91.54295621,79.2409825a,242111.64792893d,35y,0h,0t,0r/data=CnwaThJICiUweDg3ZTQ0MWMxNmEyMDg4MTc6MHg2ZDcxMTg2Nzg3MDU4MmIwGfH77aEz1ERAIeNYzSk34lbAKg1Jb3dhIENpdHksIElBGAIgASImCiQJY_VCMJHtR0ARnlY_wohmK8AZFCrKmMTNZEAh5VzCjOAzYsBCAggBOgMKATBCAggASg0I____________ARAA" target="_blank">Iowa City, Iowa (4-9 years old)</a></li>
+        <li><a href="https://earth.google.com/web/search/Burleson,+Texas/@32.51523245,-97.34543795,230.16470169a,31364.81749228d,35y,0h,0t,0r/data=Cn4aUBJKCiUweDg2NGRkNjgyNjE1ZDJhZjE6MHg3NGYyZDYyZWQ5ZDM4MmY4GZ6fPfJiRUBAIag8FcuIVFjAKg9CdXJsZXNvbiwgVGV4YXMYAiABIiYKJAmVq20dcipFQBHKhvCP53lEQBl81NFS3aBWwCGHOvdDoiRXwEICCAE6AwoBMEICCABKDQj___________8BEAA" target="_blank">Burleson, Texas (9-14 yeas old)</a></li>
+        <li><a href="https://earth.google.com/web/search/Ann+Arbor,+MI/@42.2733204,-83.73768945,265.64389438a,27522.39597605d,35y,0h,0t,0r/data=CnwaThJICiUweDg4M2NiMDBkZDQ0MzFmMzM6MHhkYjA5Zjk0Njg2YzhiNWUyGZbw3xfyI0VAIUasau6N71TAKg1Bbm4gQXJib3IsIE1JGAIgASImCiQJvDD38WT-P0AR_pRTTcugP0AZROEUTPKLWsAhW-n5SWSqWsBCAggBOgMKATBCAggASg0I____________ARAA" target="_blank">Ann Arbor, Michigan (14-15 years old)</a></li>
+        <li><a href="https://earth.google.com/web/search/El+Paso,+TX/@33.46793213,-102.83181997,1066.34835854a,2672768.49885563d,35y,0h,0t,0r/data=CnoaTBJGCiUweDg2ZTczZjhiYzVmZTNiNjk6MHhlMzkxODRlM2FiOWQwMjIyGWWMamwKwz9AIWvWdJgKn1rAKgtFbCBQYXNvLCBUWBgCIAEiJgokCVOp7l0RLUVAER7IVQbjGEVAGff-Ls2t51TAIV8ucM6-9lTAQgIIAToDCgEwQgIIAEoNCP___________wEQAA" target="_blank">El Paso, Texas (15-18 years old)</a></li>
+        <li><a href="https://earth.google.com/web/search/Ephraim,+UT/@39.3574555,-111.58002104,1699.36461647a,7190.83661397d,35y,0h,0t,0r/data=CnoaTBJGCiUweDg3NGM3MThmOGEwMjY4NDM6MHhkY2U5YmM3NjJkNGM4NTE1GRIy6yAKrkNAIWLePgaG5VvAKgtFcGhyYWltLCBVVBgCIAEiJgokCcQuYAt7e0RAEXZpL82kDDlAGfUZs9c9xlbAIbCN9Ds7pFzAQgIIAToDCgEwQgIIAEoNCP___________wEQAA" target="_blank">Ephraim, Utah (18-19 years old)</a></li>
+        <li><a href="https://earth.google.com/web/search/Kansas/@38.49810398,-98.32017658,528.68131959a,931567.23219194d,35y,0h,0t,0r/data=CnUaRxJBCiUweDg3YTMxNzcxNzE3YzAxNmI6MHg2OGMyYjRhOTRiM2UwOTVmGeVgNgGGgUNAIfUsCOX9nljAKgZLYW5zYXMYAiABIiYKJAnTsUqdxCtEQBGzdsnbFxZEQBkaxpSbC-FbwCHvSjYmvPBbwEICCAE6AwoBMEICCABKDQj___________8BEAA" target="_blank">Kansas (Mission, 19-21 years old)</a></li>
+        <li><a href="https://earth.google.com/web/search/Denton,+TX/@33.23759051,-97.14515142,201.82163777a,62220.82722681d,35y,0h,0t,0r/data=CnkaSxJFCiUweDg2NGM0Y2EwYzA4OGIxZDE6MHg3MjQ0NzRjYjQ4MTRmYjFiGazqm-p_m0BAIZgo5zCESFjAKgpEZW50b24sIFRYGAIgASImCiQJkSPAdbh7REARrmnj7Y_UQkAZAFAN7682W8AhE6h-8gdsXMBCAggBOgMKATBCAggASg0I____________ARAA" target="_blank">Denton Texas (21 years old)</a></li>
+        <li><a href="https://earth.google.com/web/search/Rexburg,+ID/@43.83005045,-111.7881829,1484.75347195a,13416.45221953d,35y,0h,0t,0r/data=CnoaTBJGCiUweDUzNTQwYTRiODA3YTk4YjE6MHg0YTQ5ZDhkMWQyMTgxYzczGQaDxqdb6UVAIdIE5RG38lvAKgtSZXhidXJnLCBJRBgCIAEiJgokCZDf8XQQtUBAEeRAPfKzh0BAGX4Q2VVMOljAIXvrWPxHWFjAQgIIAToDCgEwQgIIAEoNCP___________wEQAA" target="_blank">Rexburg, Idaho (21-23 years old)</a></li>
+        <li><a href="https://earth.google.com/web/search/Gaston,+Oregon/@44.82430707,-118.82603417,1547.59263902a,1396885.55342065d,35y,0h,0t,0r/data=Cn0aTxJJCiUweDU0OTUxN2Q4YzQ3OGIyYzk6MHhjMjhjMzYwM2Q5YWQ3NjRiGY_qKpPQt0ZAIfxdjg0TyV7AKg5HYXN0b24sIE9yZWdvbhgCIAEiJgokCVBSH2Kn70VAERyx5JvV5EVAGUUOPK1N7lvAIYZTJYCV9lvAQgIIAToDCgEwQgIIAEoNCP___________wEQAA" target="_blank">Gaston, Oregon (23-24 years old)</a></li>
+        <li><a href="https://earth.google.com/web/search/Dallas,+TX/@32.82066462,-96.73155268,145.85799995a,62518.57948235d,35y,0h,0t,0r/data=CnkaSxJFCiUweDg2NGMxOWY3N2I0NTk3NGI6MHhiOWVjOWJhNGY2NDc2NzhmGax8hbtpY0BAIbFzidkBM1jAKgpEYWxsYXMsIFRYGAIgASImCiQJpyIFSktaSEARJ2jGTJJLREAZbFsjEKwAXMAhZqyzbA9pX8BCAggBOgMKATBCAggASg0I____________ARAA" target="_blank">Dallas, Texas (24 years old-present)</a></li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Taylor Cazier, Dallas TX</p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
 </html>
+
