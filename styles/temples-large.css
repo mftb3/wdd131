@@ -1,0 +1,11 @@
+nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .temples-grid {
+    grid-template-columns: repeat(auto-fit, minmax(1200px, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
