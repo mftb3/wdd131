@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madagascar</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Texas</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <picture>
+        <source srcset="images/texas.webp" media="(min-width: 768px)">
+        <img src="images/texaswelcome.webp" alt="Image of Texas">
+    </picture>
+
+    <!-- Data Section -->
+    <section id="data">
+        <h2>General Information:</h2>
+        <ul>
+            <li><strong>Area:</strong> 268,596 sq miles</li>
+            <li><strong>Population:</strong> 29,145,505</li>
+            <li><strong>Capital:</strong> Austin</li>
+            <li><strong>Languages:</strong> English, Spanish</li>
+            <li><strong>Currency:</strong> US Dollar (USD)</li>
+            <li><strong>Time Zone:</strong> UTC-6 (Central Standard Time)</li>
+            <li><strong>Calling Code:</strong> +1</li>
+            <li><strong>Internet TLD:</strong> .us</li>          
+        </ul>
+    </section>
+
+    <!-- Weather Section -->
+    <section id="weather">
+        <h2>Weather Center <span class="icon">⛅</span></h2>
+        <ul>
+            <section id="weather">
+                <h2>Today's Weather <span class="icon">☀️</span></h2>
+                <ul>
+                    <li><strong>Temperature:</strong> 77°F</li>
+                    <li><strong>Conditions:</strong> Sunny</li>
+                    <li><strong>Wind:</strong> 9 mph</li>
+                    <li><strong>Wind Chill:</strong> <span id="windchill">N/A</span></li>
+                </ul>
+            </section>
+            
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Taylor Cazier, Dallas Texas</p>
+        <p>Last Modification: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
