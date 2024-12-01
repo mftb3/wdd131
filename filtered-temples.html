@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Temples - Dynamic Web Fundamentals">
+  <meta name="author" content="Taylor Cazier">
+  <title>Temples</title>
+  <link href="styles/filtered-temples.css" rel="stylesheet">
+  <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Temple Album</h1>
+    <nav role="navigation">
+      <ul>
+        <li><a id="filter-home" href="#">Home</a></li>
+        <li><a id="filter-old" href="#">Old</a></li>
+        <li><a id="filter-new" href="#">New</a></li>
+        <li><a id="filter-large" href="#">Large</a></li>
+        <li><a id="filter-small" href="#">Small</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Explore Beautiful Temples</h2>
+    <section class="temples-grid" id="temples-container">
+      <!-- Temple cards will be dynamically added here using JavaScript -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Taylor Cazier, Dallas TX</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
