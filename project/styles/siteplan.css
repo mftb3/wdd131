@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #FF9800;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    font-family: 'Pacifico', cursive;
+    color: #FF9800;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #8BC34A;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
