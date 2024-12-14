@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawprint Chronicles - Sticks</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Pawprint Chronicles</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rocky.html">Rocky</a></li>
+        <li><a href="sticks.html">Sticks</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Sticks - Rocky and Charlie's Favorite Finds</h2>
+    <section>
+      <div class="image-left">
+        <img src="images/stick1.jpg" alt="A favorite stick found by Rocky">
+        <p>Charlie’s Big Stick Finds: Charlie loves discovering the biggest sticks he can find, just like this dog here. Whether it’s in the park or on a walk, he proudly carries them home like prized treasures.</p>
+      </div>
+      <div class="image-right">
+        <img src="images/stick2.jpg" alt="Charlie with his prized stick">
+        <p>Rocky the Shredder: Rocky has a knack for turning sticks into sawdust, just like this basset hound. He enjoys every moment of chewing them to shreds, leaving behind little piles of stick confetti.</p>
+      </div>
+      <div class="image-left">
+        <img src="images/stick3.jpg" alt="Rocky and Charlie playing with sticks together">
+        <p>Sticks Everywhere: No matter where we go—parks, woods, or even the backyard—Charlie and Rocky always manage to find the coolest sticks. It’s like they have a built-in radar for stick-hunting adventures!</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Add a Favorite Stick</h2>
+      <p>Use the form below to add sticks that Rocky and Charlie, or even your own dogs have found and loved!</p>
+      <form>
+        <label for="stick-input">Stick Name:</label>
+        <input type="text" id="stick-input" placeholder="Enter a stick name">
+        <button type="button" id="add-stick-button">Add Stick</button>
+      </form>
+      <ul id="stick-list">
+        <!-- Stick items will be dynamically added here -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Pawprint Chronicles</p>
+    <p>Last Updated: <span id="last-modified"></span></p>
+  </footer>
+</body>
+</html>
