@@ -39,11 +39,12 @@
     <section>
       <h2>Add a Favorite Stick</h2>
       <p>Use the form below to add sticks that Rocky and Charlie, or even your own dogs have found and loved!</p>
-      <form>
+      <!-- Fixed Form -->
+      <form id="stick-form">
         <label for="stick-input">Stick Name:</label>
         <input type="text" id="stick-input" placeholder="Enter a stick name">
-        <button type="button" id="add-stick-button">Add Stick</button>
-      </form>
+        <button type="submit" id="add-stick-button">Add Stick</button>
+    </form>
       <ul id="stick-list">
         <!-- Stick items will be dynamically added here -->
       </ul>
